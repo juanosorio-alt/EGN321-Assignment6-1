@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "student": "Juan Pablo Osorio",
+    "timestamp_source": "reconstructed_for_classroom_replay",
+    "replay_start": "2026-10-01T12:00:00",
+    "clock_label": "Reconstructed replay clock (UTC convention), 2026-10-01",
+    "interval_basis": "1 second, confirmed by the student",
+    "run_boundary": "Runs concatenated for replay only; actual inter-run delay unknown",
+    "validation": "0\u201350 \u00b0C inclusive; >20 \u00b0C jumps flagged but not automatically rejected",
+    "expected_interval_seconds": 1,
+    "source_file": "readings_failure_scenario.csv",
+    "source_sha256": "48b395d6f5bd8e3f8e06dfd5490115bf7ab135907fbd401124b8c729f7097c55",
+    "window_boundaries": "inclusive",
+    "completeness_scope": "first through last stored record within each run"
+  },
+  "windows": {
+    "last_hour": {
+      "received_records": 125,
+      "expected_records_within_observed_runs": 125,
+      "missing_records": 0,
+      "records_with_missing_values": 1,
+      "numeric_readings": 124,
+      "accepted_readings": 105,
+      "record_completeness_percent": 100.0,
+      "numeric_completeness_percent": 99.2,
+      "accepted_completeness_percent": 84.0,
+      "status_counts": {
+        "MISSING": 1,
+        "OK": 103,
+        "OUT_OF_RANGE": 19,
+        "SUSPICIOUS": 2
+      },
+      "gap_count": 0,
+      "largest_record_gap_seconds": 0,
+      "first_timestamp": "2026-10-01T12:00:00",
+      "latest_timestamp": "2026-10-01T12:02:04",
+      "accepted_min_c": 14.0,
+      "accepted_max_c": 36.0,
+      "accepted_median_c": 27.0
+    },
+    "last_day": {
+      "received_records": 125,
+      "expected_records_within_observed_runs": 125,
+      "missing_records": 0,
+      "records_with_missing_values": 1,
+      "numeric_readings": 124,
+      "accepted_readings": 105,
+      "record_completeness_percent": 100.0,
+      "numeric_completeness_percent": 99.2,
+      "accepted_completeness_percent": 84.0,
+      "status_counts": {
+        "MISSING": 1,
+        "OK": 103,
+        "OUT_OF_RANGE": 19,
+        "SUSPICIOUS": 2
+      },
+      "gap_count": 0,
+      "largest_record_gap_seconds": 0,
+      "first_timestamp": "2026-10-01T12:00:00",
+      "latest_timestamp": "2026-10-01T12:02:04",
+      "accepted_min_c": 14.0,
+      "accepted_max_c": 36.0,
+      "accepted_median_c": 27.0
+    },
+    "full_history": {
+      "received_records": 125,
+      "expected_records_within_observed_runs": 125,
+      "missing_records": 0,
+      "records_with_missing_values": 1,
+      "numeric_readings": 124,
+      "accepted_readings": 105,
+      "record_completeness_percent": 100.0,
+      "numeric_completeness_percent": 99.2,
+      "accepted_completeness_percent": 84.0,
+      "status_counts": {
+        "MISSING": 1,
+        "OK": 103,
+        "OUT_OF_RANGE": 19,
+        "SUSPICIOUS": 2
+      },
+      "gap_count": 0,
+      "largest_record_gap_seconds": 0,
+      "first_timestamp": "2026-10-01T12:00:00",
+      "latest_timestamp": "2026-10-01T12:02:04",
+      "accepted_min_c": 14.0,
+      "accepted_max_c": 36.0,
+      "accepted_median_c": 27.0
+    }
+  },
+  "gaps": []
+}

@@ -1,0 +1,17 @@
+test_duplicate_import_rolls_back (test_history_builder.HistoryTests.test_duplicate_import_rolls_back) ... ok
+test_gap_counts_missing_positions_not_elapsed_seconds (test_history_builder.HistoryTests.test_gap_counts_missing_positions_not_elapsed_seconds) ... ok
+test_instructor_evidence_has_45_missing_positions (test_history_builder.HistoryTests.test_instructor_evidence_has_45_missing_positions) ... ok
+test_logging_preserves_raw_rejected_missing_and_identity (test_history_builder.HistoryTests.test_logging_preserves_raw_rejected_missing_and_identity) ... ok
+test_missing_value_is_not_absent_record (test_history_builder.HistoryTests.test_missing_value_is_not_absent_record) ... ok
+test_no_gap_at_expected_interval (test_history_builder.HistoryTests.test_no_gap_at_expected_interval) ... ok
+test_plot_breaks_at_null_and_absent_records (test_history_builder.HistoryTests.test_plot_breaks_at_null_and_absent_records) ... ok
+test_primary_counts_and_reset_reconstruction (test_history_builder.HistoryTests.test_primary_counts_and_reset_reconstruction) ... ok
+test_repeat_import_does_not_duplicate (test_history_builder.HistoryTests.test_repeat_import_does_not_duplicate) ... ok
+test_sampling_grid_and_duplicates_checked (test_history_builder.HistoryTests.test_sampling_grid_and_duplicates_checked) ... ok
+test_unknown_inter_run_delay_is_not_counted (test_history_builder.HistoryTests.test_unknown_inter_run_delay_is_not_counted) ... ok
+test_windows_use_latest_timestamp_and_inclusive_cutoff (test_history_builder.HistoryTests.test_windows_use_latest_timestamp_and_inclusive_cutoff) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.021s
+
+OK

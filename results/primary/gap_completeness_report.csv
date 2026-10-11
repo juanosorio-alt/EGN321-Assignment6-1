@@ -1,0 +1,4 @@
+window,received_records,expected_records_within_observed_runs,missing_records,records_with_missing_values,numeric_readings,accepted_readings,record_completeness_percent,numeric_completeness_percent,accepted_completeness_percent,gap_count,largest_record_gap_seconds,first_timestamp,latest_timestamp,accepted_min_c,accepted_max_c,accepted_median_c
+last_hour,125,125,0,1,124,105,100.0,99.2,84.0,0,0,2026-10-01T12:00:00,2026-10-01T12:02:04,14.0,36.0,27.0
+last_day,125,125,0,1,124,105,100.0,99.2,84.0,0,0,2026-10-01T12:00:00,2026-10-01T12:02:04,14.0,36.0,27.0
+full_history,125,125,0,1,124,105,100.0,99.2,84.0,0,0,2026-10-01T12:00:00,2026-10-01T12:02:04,14.0,36.0,27.0

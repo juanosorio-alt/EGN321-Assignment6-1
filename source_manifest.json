@@ -1,0 +1,24 @@
+{
+  "source_repository": "https://github.com/juanosorio-alt/EGN321-Assignment5-2",
+  "primary_interval_seconds": 1,
+  "interval_basis": "student-confirmed",
+  "files": [
+    {
+      "path": "data/instructor_sample_history.csv",
+      "sha256": "c6610cf3816d78ad0553c0d5e404753149967d299312331e66635db6fb7e9cf5",
+      "origin": "instructor attachment module6_sample_sensor_history.csv"
+    },
+    {
+      "path": "data/readings_failure_scenario.csv",
+      "sha256": "48b395d6f5bd8e3f8e06dfd5490115bf7ab135907fbd401124b8c729f7097c55",
+      "origin": "Module 5 GitHub repository",
+      "github_blob_sha": "568f4ee2565d70e2f79d035ca26fdcf5817f4a17"
+    },
+    {
+      "path": "data/readings_original.csv",
+      "sha256": "eefbd42c46e746d0c6bc0298b412057cbcc72677a398892a0b3c81e6b7029be1",
+      "origin": "Module 5 GitHub repository",
+      "github_blob_sha": "5fa399c535f0229b935c07bbb669b2ba7645ff1a"
+    }
+  ]
+}

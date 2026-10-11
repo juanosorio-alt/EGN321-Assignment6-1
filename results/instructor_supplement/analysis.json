@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "timestamp_source": "provided_in_instructor_csv",
+    "clock_label": "Provided classroom timestamps (timezone unspecified)",
+    "interval_basis": "60 seconds, matching provided sample numbers and timestamps",
+    "scope": "Instructor practice dataset; temperature only; separate from student evidence",
+    "validation": "Accept only numeric readings labeled OK in the instructor CSV",
+    "expected_interval_seconds": 60,
+    "source_file": "instructor_sample_history.csv",
+    "source_sha256": "c6610cf3816d78ad0553c0d5e404753149967d299312331e66635db6fb7e9cf5",
+    "window_boundaries": "inclusive",
+    "completeness_scope": "first through last stored record within each run"
+  },
+  "windows": {
+    "last_hour": {
+      "received_records": 61,
+      "expected_records_within_observed_runs": 61,
+      "missing_records": 0,
+      "records_with_missing_values": 0,
+      "numeric_readings": 61,
+      "accepted_readings": 61,
+      "record_completeness_percent": 100.0,
+      "numeric_completeness_percent": 100.0,
+      "accepted_completeness_percent": 100.0,
+      "status_counts": {
+        "OK": 61
+      },
+      "gap_count": 0,
+      "largest_record_gap_seconds": 0,
+      "first_timestamp": "2026-10-02T13:00:00",
+      "latest_timestamp": "2026-10-02T14:00:00",
+      "accepted_min_c": 23.7,
+      "accepted_max_c": 24.62,
+      "accepted_median_c": 24.16
+    },
+    "last_day": {
+      "received_records": 1421,
+      "expected_records_within_observed_runs": 1441,
+      "missing_records": 20,
+      "records_with_missing_values": 0,
+      "numeric_readings": 1421,
+      "accepted_readings": 1419,
+      "record_completeness_percent": 98.6120749479528,
+      "numeric_completeness_percent": 98.6120749479528,
+      "accepted_completeness_percent": 98.47328244274809,
+      "status_counts": {
+        "OK": 1419,
+        "OUT_OF_RANGE": 2
+      },
+      "gap_count": 1,
+      "largest_record_gap_seconds": 1260.0,
+      "first_timestamp": "2026-10-01T14:00:00",
+      "latest_timestamp": "2026-10-02T14:00:00",
+      "accepted_min_c": 19.29,
+      "accepted_max_c": 24.62,
+      "accepted_median_c": 22.04
+    },
+    "full_history": {
+      "received_records": 1756,
+      "expected_records_within_observed_runs": 1801,
+      "missing_records": 45,
+      "records_with_missing_values": 0,
+      "numeric_readings": 1756,
+      "accepted_readings": 1753,
+      "record_completeness_percent": 97.50138811771238,
+      "numeric_completeness_percent": 97.50138811771238,
+      "accepted_completeness_percent": 97.33481399222654,
+      "status_counts": {
+        "OK": 1753,
+        "OUT_OF_RANGE": 3
+      },
+      "gap_count": 2,
+      "largest_record_gap_seconds": 1560.0,
+      "first_timestamp": "2026-10-01T08:00:00",
+      "latest_timestamp": "2026-10-02T14:00:00",
+      "accepted_min_c": 19.29,
+      "accepted_max_c": 24.62,
+      "accepted_median_c": 22.57
+    }
+  },
+  "gaps": [
+    {
+      "sensor_name": "instructor_temperature",
+      "run_id": 1,
+      "before": "2026-10-01T13:09:00",
+      "after": "2026-10-01T13:35:00",
+      "elapsed_seconds": 1560.0,
+      "missing_slots": 25,
+      "missing_slot_duration_seconds": 1500
+    },
+    {
+      "sensor_name": "instructor_temperature",
+      "run_id": 1,
+      "before": "2026-10-02T05:59:00",
+      "after": "2026-10-02T06:20:00",
+      "elapsed_seconds": 1260.0,
+      "missing_slots": 20,
+      "missing_slot_duration_seconds": 1200
+    }
+  ]
+}
